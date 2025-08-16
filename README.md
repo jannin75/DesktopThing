@@ -2,14 +2,14 @@
 Version 1.0
 Please be nice this is my first time uploading a project.
 
-A project built using Arduino IDE, some TFT screens, an RTC module, and a raspberry pi pico.
+This project was built using Arduino IDE, some TFT screens, an RTC module, a raspberry pi pico, FreeCAD, and a 3d printer.
 
 This was born out of frustration about the end of remote work and heading back into the office after almost 10 years.
 I wanted to make a cute little display to show a slideshow and a nice looking clock to go with it.
 A desktop thing to sit on my desk and display some images and the time.
 
-Built using an ILI9341 with an i2c capacitive touch screen and a GC9A01 round 1.28" tft display for the clock.
-Uses the built in micro sd card slot on the ILI9341 and an external RTC clock with a battery to keep the time.
+Built using a 2.8 inch ILI9341 display with an i2c capacitive touch screen and a GC9A01 round 1.28" tft display for the clock.
+Uses the built in micro sd card reader on the ILI9341 and an external RTC clock with a battery to keep the time.
 
 The .h pixel map files are used by the TFT_eSPI library to create the analog clock movement.  usersetup.h is used with the TFT_eSPI library to configure the clock display.
 
@@ -21,7 +21,7 @@ The adafruit libraries are used to create the slide show and drive the tft displ
 
 You can set the delay for the slide show to advance near the top of the .ino file.  I also included the ability to just touch the screen to advance to the next picture if desired.
 
-I crerated a housing in FreeCAD to hold my custom setup.  I used a prototype board and soldered the pico and some connectors to the board along with the RTC.  3mf cad files are uploaded.
+I crerated a housing in FreeCAD to hold my custom setup.  I used a prototype board and soldered the pico and some FPC connectors to the board along with the RTC.  3mf cad files are uploaded.
 
 Full list of hardware I used:
 
@@ -36,6 +36,9 @@ https://www.amazon.com/dp/B0DCLF3QYB?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_
 
 SanDisk Ultra SDSQUNS-016G-GN3MN 16GB 80MB/s UHS-I Class 10 microSDHC Card
 https://www.amazon.com/dp/B074B4P7KD?ref=ppx_yo2ov_dt_b_fed_asin_title
+
+DS3231 Real Time Clock Module RTC
+https://www.amazon.com/dp/B09SHRWHQ3?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_1&th=1
 
 Monk Makes prototype PCD board.
 https://monkmakes.com/pico_proto
