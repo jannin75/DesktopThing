@@ -21,7 +21,7 @@ The adafruit libraries are used to create the slide show and drive the tft displ
 
 You can set the delay for the slide show to advance near the top of the .ino file.  I also included the ability to just touch the screen to advance to the next picture if desired.
 
-I crerated a housing in FreeCAD to hold my custom setup.  I used a prototype board and soldered the pico and some connectors to the board along with the RTC.  Cad files can be found in the cad files folder.
+I crerated a housing in FreeCAD to hold my custom setup.  I used a prototype board and soldered the pico and some connectors to the board along with the RTC.  3mf cad files are uploaded.
 
 Full list of hardware I used:
 
